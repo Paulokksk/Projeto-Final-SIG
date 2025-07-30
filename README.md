@@ -74,16 +74,6 @@ Foram selecionados 5 indicadores de relevância social:
 📁 
 PROJETO_CANINDÉ/
 ├── dados/
-│ ├── brutos/ # Dados originais baixados do IBGE (ZIPs, DBFs, CSVs)
-│ │ ├── Agregados_por_setores_alfabetizacao_...csv
-│ │ ├── Agregados_por_setores_basico_...csv
-│ │ ├── Agregados_por_setores_cor_ou_raca_...csv
-│ │ ├── Agregados_por_setores_caracteristicas_domicilio2_...csv
-│ │ ├── CE_setores_CD2022.cpg
-│ │ ├── CE_setores_CD2022.dbf
-│ │ ├── CE_setores_CD2022.prj
-│ │ ├── CE_setores_CD2022.shp
-│ │ └── CE_setores_CD2022.shx
 │ ├── filtrados/ # Dados filtrados para o município escolhido (Canindé)
 │ │ ├── caninde_alfabetizacao.csv
 │ │ ├── caninde_basico.csv
@@ -99,10 +89,8 @@ PROJETO_CANINDÉ/
 ├── resultados/ # Saídas do projeto (mapa, gráficos, relatórios)
 │ └── mapa_interativo.html # Mapa interativo gerado em HTML
 ├── scripts/ # Scripts Python para tratamento e análise dos dados
-│ ├── 1_filtrar_dados.py # Filtra dados brutos para o município
-│ ├── 2_unir_dados.py # Junta dados tabulares com malha geográfica
-│ ├── 3_gerar_mapa.py # Gera mapa interativo com Folium
-│ └── filtrar_malha.py # (se aplicável) Script auxiliar para malha
+│ ├── unir_dados.py # Junta dados tabulares com malha geográfica
+│ ├── gerar_mapa.py # Gera mapa interativo com Folium
 ├── README.md # Documentação do projeto
 └── requirements.txt # Dependências do projeto
 
